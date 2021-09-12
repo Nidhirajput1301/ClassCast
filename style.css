@@ -1,0 +1,157 @@
+.container{
+  width: 500px;
+  background-color: powderblue;
+}
+
+.insideContainer {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding-top: 10px;
+}
+
+.header img {
+   width: 80px;
+   height: 80px;
+   margin-right: 10px;
+}
+
+.header i{
+   width: 15%;
+   padding-top: 30px;
+ }
+
+
+
+.health{
+  margin: 50px auto;
+}
+
+.healthRow{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.healthDiv {
+  width: 32%;
+  height: 100px;
+  border: 1px solid rgb(243, 224, 187);
+  border-radius: 2px;
+}
+
+
+
+
+.signup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px auto;
+  background-color: rgb(245, 229, 232);
+  border-radius: 5px;
+  margin: 50px auto;
+}
+
+.signup img{
+  width: 150px;
+  height: 150px;
+}
+
+.signupDiv{
+  text-align: center;
+}
+
+.signupDiv p{
+  width: 60%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.signupDiv button{
+ background-color: gold;
+ color: white;
+ font-weight: 700;
+ border-radius: 5px;
+ width: 100px;
+ height: 40px;
+ border: none;
+ margin: 10px auto;
+}
+
+
+
+
+.training{
+  margin: 50px auto;
+}
+
+.trainingDiv{
+}
+
+.trainingCol{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+.trainingCol div{
+  text-align: center;
+}
+
+.trainingCol button{
+  background-color: white; 
+  color:black;
+  border:none;
+  border-radius:5px;
+}
+
+
+
+
+
+ .trainer{
+   margin: 50px auto;
+   padding-bottom: 5px;
+ }
+
+ .trainerDiv{
+ }
+
+ .trainerCol{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 90px;
+   margin: 10px auto;
+   border: 1px solid rgb(238, 213, 166);
+   border-radius: 5px;
+ }
+
+ .trainerCol div{
+   
+  }
+
+  .trainerCol img{
+   width: 80px;
+   height: 80px;
+  }
+
+  .trainerCol i{
+   padding-top: 8%;
+   width: 30%;
+   padding-left: 15%;
+ }
